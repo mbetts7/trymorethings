@@ -9,12 +9,15 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
+gem 'sdoc', '~> 0.4.0', group: :doc
 
 # https://github.com/metaskills/less-rails-bootstrap
 gem 'less-rails-bootstrap'
 gem 'therubyracer'
+
+group :development do
+  gem 'spring'
+end
 
 group :test, :development do
   gem 'rspec-rails'
@@ -23,7 +26,7 @@ group :test, :development do
   gem 'dotenv-rails'
 end
 
-gem 'quiet_assets', :group => :development
+# gem 'quiet_assets', :group => :development
 
 # gem 'font-awesome-rails'
 

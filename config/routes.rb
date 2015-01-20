@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root to: "things#index"
+  root to: "sites#index"
 end
