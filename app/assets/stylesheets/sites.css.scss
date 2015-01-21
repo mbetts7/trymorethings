@@ -2,20 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-//.bg_site {
-//  background-color: #1ca3e2;
-//  font-family: 'Oswald', sans-serif;
-//}
-
-//.bg_nav {
-//  background-color: white;
-//  border-color: #428bca;
-//
-//  font-family: 'Oswald', sans-serif;
-//}
-
 .no_background {
-  backgorund: none;
+  background: none;
   font-color: white;
 }
 
@@ -32,3 +20,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.footer {
+  background: white;
+}
+
+// http://twbscolor.smarchal.com/scss?bd=ffffff&bh=000000&cd=000000&ch=ffffff
+
+// http://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3
