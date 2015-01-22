@@ -28,5 +28,5 @@ end
 
 # gem 'quiet_assets', :group => :development
 
-# gem 'font-awesome-rails'
+gem 'font-awesome-rails'
 
