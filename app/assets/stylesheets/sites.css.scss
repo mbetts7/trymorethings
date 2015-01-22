@@ -1,7 +1,3 @@
-// Place all the styles related to the sites controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 body {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -9,9 +5,26 @@ body {
 }
 
 .full {
-  background: url(cuttingboard.jpg) no-repeat center center fixed; 
+  background: url(cuttingboardquote.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.section_1 {
+  height: 300px;
+}
+
+p {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.site-section {
+  text-align: center;
+}
+
+.site-button {
+  text-align: center;
+  /*width: 40px !important;*/
 }
