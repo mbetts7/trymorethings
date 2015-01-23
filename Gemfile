@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 #pre-loaded gems
 gem 'rails', '4.1.6'
 gem 'pg' 
@@ -10,6 +12,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+#for heroku
+gem "rails_12factor", group: :production
+
 
 # https://github.com/metaskills/less-rails-bootstrap
 gem 'less-rails-bootstrap'
@@ -27,6 +33,5 @@ group :test, :development do
 end
 
 # gem 'quiet_assets', :group => :development
-
 gem 'font-awesome-rails'
 
