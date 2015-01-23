@@ -34,3 +34,8 @@ end
 # gem 'quiet_assets', :group => :development
 gem 'font-awesome-rails'
 
+
+#leave at end of gemfile
+gem 'unicorn'
+
+
