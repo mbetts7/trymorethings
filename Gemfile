@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-
-
 #pre-loaded gems
 gem 'rails', '4.1.6'
 gem 'pg' 
@@ -15,7 +13,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #for heroku
 gem "rails_12factor", group: :production
-
 
 # https://github.com/metaskills/less-rails-bootstrap
 gem 'less-rails-bootstrap'
