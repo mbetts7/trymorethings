@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 #pre-loaded gems
 gem 'rails', '4.1.6'
 gem 'pg' 
