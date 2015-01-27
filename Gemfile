@@ -13,16 +13,17 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+group :development do
+  gem 'spring'
+  # gem 'quiet_assets'
+end
+
 #for heroku
 gem "rails_12factor", group: :production
 
 # https://github.com/metaskills/less-rails-bootstrap
 gem 'less-rails-bootstrap'
 gem 'therubyracer'
-
-group :development do
-  gem 'spring'
-end
 
 group :test, :development do
   gem 'rspec-rails'
@@ -31,9 +32,10 @@ group :test, :development do
   gem 'dotenv-rails'
 end
 
-# gem 'quiet_assets', :group => :development
 gem 'font-awesome-rails'
 
+# Analytics
+gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
 
 #leave at end of gemfile
 gem 'unicorn'
