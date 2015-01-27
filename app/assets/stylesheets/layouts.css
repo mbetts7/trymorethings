@@ -1,9 +1,11 @@
 .footer {
-  opacity: 1;
-  width:100%;
-  height:40px;
-  position:fixed;
-  bottom:0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  font-size: 18px;
+  text-align: center;
 }
 
 .logo {
@@ -13,6 +15,11 @@
   opacity: 1;
   line-height: 96%;
   padding-top:12px;
+}
+
+.logo:hover {
+  text-decoration:none;
+  color:white;
 }
 
 .contact_us {
@@ -26,12 +33,3 @@
   color: white;
   opacity: 1;
 }
-
-.quote {
-  font-family: 'Allan', sans-serif;
-  color: white;
-  padding-top:24px;
-  font-size: 12pt;
-}
-
-/*http://ianlunn.github.io/Hover/*/

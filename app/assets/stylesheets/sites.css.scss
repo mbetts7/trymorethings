@@ -25,10 +25,9 @@ p {
   font-size: 20px;
 }
 
-.site-button {
-  text-align: center;
-  font-size: 20px;
-  /*width: 40px !important;*/
+/* make sure footer doesn't run into last element */
+.before-footer {
+  margin-bottom: 60px;
 }
 
 /* Grow http://ianlunn.github.io/Hover */
@@ -48,3 +47,10 @@ p {
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
+/*.quote {
+  font-family: 'Allan', sans-serif;
+  color: white;
+  padding-top:24px;
+  font-size: 12pt;
+}*/
