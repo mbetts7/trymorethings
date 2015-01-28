@@ -37,7 +37,9 @@ gem 'font-awesome-rails'
 # Analytics
 gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
 
-#leave at end of gemfile
-gem 'unicorn'
+#authentication
+gem 'devise'
 
+#LEAVE AT END OF GEMFILE
+gem 'unicorn'
 
