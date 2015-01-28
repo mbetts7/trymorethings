@@ -1,8 +1,9 @@
-body {
+/*body {
   margin-top: 50px;
   margin-bottom: 50px;
   background: none;
-}
+  font-family: 'Ropa Sans', sans-serif;
+}*/
 
 .full {
   background: image-url('cuttingboardquote.jpg') no-repeat center fixed; 
@@ -10,17 +11,19 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 250px;
 }
 
-.section_1 {
-  height: 300px;
-}
-
-p {
+.main {
   font-family: 'Ropa Sans', sans-serif;
 }
 
-.site-section {
+.create {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.site-section { 
   text-align: center;
   font-size: 20px;
 }
