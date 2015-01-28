@@ -39,6 +39,7 @@ gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
 
 #authentication
 gem 'devise'
+gem 'omniauth-facebook'
 
 #LEAVE AT END OF GEMFILE
 gem 'unicorn'
