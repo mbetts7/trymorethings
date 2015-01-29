@@ -36,6 +36,7 @@ gem 'font-awesome-rails'
 
 # Analytics
 gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
+gem 'newrelic_rpm'
 
 #authentication
 gem 'devise'
