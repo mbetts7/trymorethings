@@ -42,6 +42,9 @@ gem 'newrelic_rpm'
 gem 'devise'
 gem 'omniauth-facebook'
 
+#twilio
+gem 'twilio-ruby'
+
 #LEAVE AT END OF GEMFILE
 gem 'unicorn'
 
