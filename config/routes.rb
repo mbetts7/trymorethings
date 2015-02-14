@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   get "about", to: "sites#about"
   get "index2", to: "sites#index2"
   get "mc_signup", to: "sites#mc_signup"
+
+  resources :experiments
+
 end

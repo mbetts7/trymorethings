@@ -1,3 +1,7 @@
+$mainFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$logoFont: 'Anton', sans-serif;
+$altFont: 'Ropa Sans', sans-serif;
+
 .footer {
   position: fixed;
   right: 0;
@@ -6,12 +10,12 @@
   background-color: #e6e6e6;
   font-size: 16px;
   text-align: center;
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: $mainFont;
   height: 25px;
 }
 
 #logo {
-  font-family: 'Anton', sans-serif;
+  font-family: $logoFont;
   font-size: 26pt;
   color: white;
   opacity: 1;
