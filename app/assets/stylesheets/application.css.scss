@@ -15,10 +15,11 @@
  */
 
 @import "bootstrap-sprockets";
-@import "bootstrap";
+@import "bootstrap-modules";
+@import "bootstrap-overwrite";
 @import "sites";
 @import "layouts";
 @import "experiments";
-@import "theme/bootstrap-theme";
+/*@import "theme/bootstrap-theme";
 @import "theme/theme-alizarin";
-@import "theme/theme-light";
+@import "theme/theme-light";*/
