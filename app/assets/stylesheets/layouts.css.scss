@@ -1,6 +1,4 @@
-$mainFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$logoFont: 'Anton', sans-serif;
-$altFont: 'Ropa Sans', sans-serif;
+@import 'mixins';
 
 .footer {
   position: fixed;
@@ -29,13 +27,17 @@ $altFont: 'Ropa Sans', sans-serif;
 }
 
 .contact_us {
-  padding-top:24px;
-  text-align: right;
+  
 }
 
-.contact_us a {
-  font-family: 'Allan', sans-serif;
-  font-size: 18pt;
-  color: white;
-  opacity: 1;
+.contact_us {
+  padding-top:24px;
+  text-align: right;
+
+  a {
+    font-family: $mainFont  ;
+    font-size: 18pt;
+    color: white;
+    opacity: 1;
+  }
 }

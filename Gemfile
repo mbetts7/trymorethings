@@ -22,7 +22,7 @@ end
 gem "rails_12factor", group: :production
 
 # https://github.com/metaskills/less-rails-bootstrap
-gem 'less-rails-bootstrap'
+gem 'bootstrap-sass'
 gem 'therubyracer'
 
 group :test, :development do
