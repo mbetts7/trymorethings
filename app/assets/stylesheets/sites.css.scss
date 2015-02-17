@@ -1,14 +1,5 @@
 @import 'mixins';
 
-.full {
-  background: image-url('cuttingboardquote.jpg') no-repeat center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 250px;
-}
-
 .main {
   font-family: $mainFont;
 }
@@ -16,11 +7,6 @@
 .create {
   margin-top: 20px;
   margin-bottom: 5px;
-}
-
-.site-section { 
-  text-align: center;
-  font-size: 16px;
 }
 
 /* make sure footer doesn't run into last element */

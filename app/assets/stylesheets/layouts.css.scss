@@ -1,43 +1,33 @@
 @import 'mixins';
 
-.footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #e6e6e6;
-  font-size: 16px;
-  text-align: center;
-  font-family: $mainFont;
-  height: 25px;
-}
-
 #logo {
   font-family: $logoFont;
   font-size: 26pt;
-  color: white;
+  color: $textColor;
   opacity: 1;
-  line-height: 96%;
-  padding-top:12px;
 }
 
 #logo:hover {
   text-decoration:none;
-  color:white;
 }
 
-.contact_us {
-  
-}
-
-.contact_us {
+.signup {
   padding-top:24px;
   text-align: right;
 
   a {
     font-family: $mainFont  ;
     font-size: 18pt;
-    color: white;
+    color: $textColor;
+    text-decoration:none;
     opacity: 1;
+  }
+}
+
+.footer {
+  text-align: center;
+
+  a {
+    color: $textColor;
   }
 }

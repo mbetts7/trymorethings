@@ -1,6 +1,12 @@
 <%= render 'layouts/nav' %>
 
-<div class="col-md-6 col-md-offset-3 site-section">
+<div class="container">
+
+  <div class="page-header">
+    <h1>Raw Honey for Better Sleep <small>[# tried] [Categories: sleep, ...] [try it later]</small></h1>
+  </div>
+
+  <div class="col-md-6 site-section">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title"><b>Overview</b></h3>
@@ -13,7 +19,7 @@
 
 
   <div class="row">
-    <div class="col-md-3 col-md-offset-3 site-section">
+    <div class="col-md-3 site-section">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title"><b>What you need to get started</b></h3>
@@ -31,28 +37,82 @@
         </div>
         <div class="panel-body">
           <ul>
-            <li>This works [%]
-            <li>Quality of sleep [1-5]
-            <li>Avg days tried [#]
+            <li>This works [%]</li>
+            <li>Quality of sleep [1-5]</li>
+            <li>Avg days tried [#]</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-6 col-md-offset-3 site-section">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><b>COMING SOON:</b> Raw Honey before bed</h3>
+  <div class="col-md-6 site-section">
+    
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Hypothesis
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            Raw Honey at bed time can improve your sleep
+          </div>
+        </div>
       </div>
-      <div class="panel-body">
-        Hypothesis: Raw Honey at bed time can improve your sleep
-
-Discovered by: Seth Roberts, Dave Asprey, Mark Sisson, Ron Fessenden
-
-Studies: Three studies in children show that honey improves sleep better than placebo or traditional cough medicine for children with upper respiratory infection. 2007, 2010, 2012.
-
-Books: The New Honey Revolution makes this claim as well.
+    
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Discovered by
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            Seth Roberts, Dave Asprey, Mark Sisson, Ron Fessenden
+          </div>
+        </div>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Studies
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Three studies in children show that honey improves sleep better than placebo or traditional cough medicine for children with upper respiratory infection. 2007, 2010, 2012.
+          </div>
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Books
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="panel-body">
+            The New Honey Revolution makes this claim as well.
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
+
+</div>
+
+<%= render 'layouts/footer' %>
